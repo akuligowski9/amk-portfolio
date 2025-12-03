@@ -1,341 +1,57 @@
-[00:00:00.800] Server  LOG      ✓ Ready in 594ms
-[00:00:08.644] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:08.883] Browser WARN    Image with src "/me.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:28.810] Browser WARN    Image with src "/me.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:02:41.980] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:42.105] Browser WARN    Image with src "/me.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:03:01.355] Browser WARN    Image with src "/me.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:05:00.416] Server  ERROR    ⨯ ReferenceError: Image is not defined
-[00:05:00.563] Server  ERROR    ⨯ ReferenceError: Image is not defined
-[00:05:00.748] Server  ERROR    ⨯ ReferenceError: Image is not defined
-[00:05:00.892] Server  ERROR    ⨯ ReferenceError: Image is not defined
-[00:05:01.285] Server  ERROR    ⨯ ReferenceError: Image is not defined
-[00:05:01.433] Server  ERROR    ⨯ ReferenceError: Image is not defined
-[00:05:01.515] Browser ERROR   uncaughtError: ReferenceError: Image is not defined
-[00:05:19.435] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:05:19.811] Browser WARN    Image with src "/me.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:05:24.808] Browser WARN    Image with src "/me.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:27.068] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:05:27.174] Browser WARN    Image with src "/me.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:14:40.619] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:15:40.870] Server  LOG      ✓ Compiled in 32ms
-[00:15:40.922] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:15:41.057] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:15:44.657] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:15:44.794] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:16:04.009] Server  LOG      ✓ Compiled in 33ms
-[00:16:04.013] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:16:04.204] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:23:37.069] Server  LOG      ✓ Compiled in 42ms
-[00:24:02.433] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:31:53.757] Server  LOG      ✓ Compiled in 48ms
-[00:31:58.727] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:38:17.852] Server  LOG      ✓ Compiled in 40ms
-[00:38:23.042] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:44:10.293] Server  LOG      ✓ Compiled in 64ms
-[00:46:03.289] Server  LOG      ✓ Compiled in 39ms
-[00:46:23.343] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:46:23.452] Browser WARN    Image with src "/me.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+[00:00:00.810] Server  LOG      ✓ Ready in 595ms
+[00:00:06.251] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:06.372] Browser WARN    Image with src "/me.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:46:23.452] Browser WARN    Image with src "/me.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:48:19.467] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:48:19.576] Browser WARN    Image with src "/me.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+[00:00:06.372] Browser WARN    Image with src "/me.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[95:12:37.452] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[95:12:37.576] Browser WARN    Image with src "/me.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:48:19.576] Browser WARN    Image with src "/me.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:49:14.925] Server  LOG      ✓ Compiled in 44ms
-[00:49:15.029] Browser ERROR   ./src/components/site/navbar.tsx:39:3
-Parsing ecmascript source code failed
-  37 | </header>
-  38 |
-> 39 |   );
-     |   ^
-  40 | }
-  41 |
-
-Expression expected
-
-Import trace:
-  Server Component:
-    ./src/components/site/navbar.tsx
-    ./src/app/layout.tsx
-[00:52:44.795] Server  ERROR    ⨯ ReferenceError: usePathname is not defined
-[00:52:44.798] Server  LOG      ✓ Compiled in 85ms
-[00:52:44.808] Server  ERROR    ⨯ ReferenceError: usePathname is not defined
-[00:52:44.934] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:52:44.934] Browser ERROR   uncaughtError: ReferenceError: usePathname is not defined
-[00:52:46.843] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:52:46.998] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:52:47.108] Browser WARN    Image with src "/me.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+[95:12:37.576] Browser WARN    Image with src "/me.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[95:12:38.587] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[95:12:38.690] Browser WARN    Image with src "/me.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:52:47.108] Browser WARN    Image with src "/me.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:52:53.146] Server  LOG      ✓ Compiled in 20ms
-[00:52:53.249] Browser ERROR   ./src/components/site/navbar.tsx:42:1
-Parsing ecmascript source code failed
-  40 | }
-  41 |
-> 42 | }
-     | ^
-  43 |
-
-Expression expected
-
-Import trace:
-  Server Component:
-    ./src/components/site/navbar.tsx
-    ./src/app/layout.tsx
-[00:52:56.079] Browser ERROR   uncaughtError: ReferenceError: useState is not defined
-[00:53:10.427] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:53:10.479] Server  LOG      ✓ Compiled in 26ms
-[00:53:10.615] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:53:10.615] Browser WARN    Image with src "/me.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+[95:12:38.690] Browser WARN    Image with src "/me.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[95:12:39.336] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[95:12:39.438] Browser WARN    Image with src "/me.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:53:10.724] Browser WARN    Image with src "/me.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:57:29.103] Server  LOG      ✓ Compiled in 55ms
-[00:57:40.891] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:57:41.007] Browser WARN    Image with src "/me.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+[95:12:39.438] Browser WARN    Image with src "/me.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[95:12:40.351] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[95:12:40.455] Browser WARN    Image with src "/me.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:57:41.007] Browser WARN    Image with src "/me.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:00:49.641] Server  LOG      ✓ Compiled in 36ms
-[01:00:49.744] Browser ERROR   ./src/components/site/navbar.tsx:76:1
-Parsing ecmascript source code failed
-  74 |             })}
-  75 |           </nav>
-> 76 |
-     | ^
-
-Expected '</', got '<eof>'
-
-Import trace:
-  Server Component:
-    ./src/components/site/navbar.tsx
-    ./src/app/layout.tsx
-[01:01:00.975] Server  LOG      ✓ Compiled in 32ms
-[01:01:01.078] Browser ERROR   ./src/app/page.tsx:35:1
-Parsing ecmascript source code failed
-  33 |             <p className="leading-relaxed text-slate-700">
-  34 |               I’m based in Lima, Peru while my wife’s U.S. spousal visa is proce
-> 35 |
-     | ^
-
-Expected '</', got '<eof>'
-[01:01:01.078] Browser ERROR   ./src/components/site/navbar.tsx:76:1
-Parsing ecmascript source code failed
-  74 |             })}
-  75 |           </nav>
-> 76 |
-     | ^
-
-Expected '</', got '<eof>'
-
-Import trace:
-  Server Component:
-    ./src/components/site/navbar.tsx
-    ./src/app/layout.tsx
-[01:02:20.363] Server  LOG      ✓ Compiled in 37ms
-[01:02:20.466] Browser ERROR   ./src/components/site/navbar.tsx:76:1
-Parsing ecmascript source code failed
-  74 |             })}
-  75 |           </nav>
-> 76 |
-     | ^
-
-Expected '</', got '<eof>'
-
-Import trace:
-  Server Component:
-    ./src/components/site/navbar.tsx
-    ./src/app/layout.tsx
-[01:02:22.587] Server  ERROR    ⨯ ./src/components/site/navbar.tsx:76:1
-Parsing ecmascript source code failed
-  74 |             })}
-  75 |           </nav>
-> 76 |
-     | ^
-
-Expected '</', got '<eof>'
-
-Import trace:
-  Server Component:
-    ./src/components/site/navbar.tsx
-    ./src/app/layout.tsx
-
-
-[01:02:22.737] Browser ERROR   uncaughtError: Error: ./src/components/site/navbar.tsx:76:1
-Parsing ecmascript source code failed
-  74 |             })}
-  75 |           </nav>
-> 76 |
-     | ^
-
-Expected '</', got '<eof>'
-
-Import trace:
-  Server Component:
-    ./src/components/site/navbar.tsx
-    ./src/app/layout.tsx
-
-
-[01:02:22.877] Browser ERROR   ./src/components/site/navbar.tsx:76:1
-Parsing ecmascript source code failed
-  74 |             })}
-  75 |           </nav>
-> 76 |
-     | ^
-
-Expected '</', got '<eof>'
-
-Import trace:
-  Server Component:
-    ./src/components/site/navbar.tsx
-    ./src/app/layout.tsx
-[01:02:22.877] Browser ERROR   ./src/components/site/navbar.tsx:76:1
-Parsing ecmascript source code failed
-  74 |             })}
-  75 |           </nav>
-> 76 |
-     | ^
-
-Expected '</', got '<eof>'
-
-Import trace:
-  Server Component:
-    ./src/components/site/navbar.tsx
-    ./src/app/layout.tsx
-[01:02:22.877] Browser ERROR   ./src/components/site/navbar.tsx:76:1
-Parsing ecmascript source code failed
-  74 |             })}
-  75 |           </nav>
-> 76 |
-     | ^
-
-Expected '</', got '<eof>'
-
-Import trace:
-  Server Component:
-    ./src/components/site/navbar.tsx
-    ./src/app/layout.tsx
-[01:02:39.822] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:02:40.812] Browser WARN    Image with src "/me.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:02:41.098] Browser WARN    Image with src "/me.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+[95:12:40.455] Browser WARN    Image with src "/me.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[95:12:40.965] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[95:12:41.069] Browser WARN    Image with src "/me.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[01:04:54.894] Browser ERROR   ./src/app/page.tsx:18:43
-Parsing ecmascript source code failed
-  16 |           />
-  17 |
-> 18 |           <div className="flex-1 space-y-4">
-     |                                           ^^
-  19 |             <div>
-  20 |               <h1 className="text-3xl font-bold">Alex Kuligowski</h1>
-  21 |               <p className="text-sm tracking-wide text-[#4f634d] font-semibold">
-
-Unterminated string constant
-[01:12:06.165] Server  LOG      ✓ Compiled in 44ms
-[01:14:12.167] Server  LOG      ✓ Compiled in 60ms
-[01:14:14.664] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:14:14.770] Browser WARN    Image with src "/me.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+[95:12:41.069] Browser WARN    Image with src "/me.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[95:12:41.584] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[95:12:41.688] Browser WARN    Image with src "/me.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[01:14:14.770] Browser WARN    Image with src "/me.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:14:25.491] Server  LOG      ✓ Compiled in 72ms
-[01:14:32.163] Server  LOG      ✓ Compiled in 46ms
-[01:14:40.343] Server  LOG      ✓ Compiled in 34ms
-[01:15:07.550] Browser ERROR   ./src/app/layout.tsx:22:15
-Parsing ecmascript source code failed
-  20 |       >
-  21 |         <NavBar />
-> 22 |         <main{children}</main>
-     |               ^^^^^^^^
-  23 |       </body>
-  24 |     </html>
-  25 |   );
-
-Expected '</', got 'children'
-[01:18:05.275] Server  LOG      ✓ Compiled in 48ms
-[01:20:51.118] Server  LOG      ✓ Compiled in 40ms
-[01:20:51.223] Browser ERROR   ./src/app/projects/page.tsx:1:1
-Export Card doesn't exist in target module
-> 1 | import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  2 |
-  3 | const projects = [
-  4 |   { title: "Audit Logger Service", desc: "Centralized audit logging (serverless) with event envelopes and retention.", stack: ["Node", "Lambda", "DynamoDB"] },
-
-The export Card was not found in module [project]/src/components/ui/card.tsx [app-rsc] (ecmascript).
-Did you mean to import ProjectCard?
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-[01:20:51.223] Browser ERROR   ./src/app/projects/page.tsx:1:1
-Export CardContent doesn't exist in target module
-> 1 | import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  2 |
-  3 | const projects = [
-  4 |   { title: "Audit Logger Service", desc: "Centralized audit logging (serverless) with event envelopes and retention.", stack: ["Node", "Lambda", "DynamoDB"] },
-
-The export CardContent was not found in module [project]/src/components/ui/card.tsx [app-rsc] (ecmascript).
-Did you mean to import ProjectCard?
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-[01:20:51.223] Browser ERROR   ./src/app/projects/page.tsx:1:1
-Export CardHeader doesn't exist in target module
-> 1 | import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  2 |
-  3 | const projects = [
-  4 |   { title: "Audit Logger Service", desc: "Centralized audit logging (serverless) with event envelopes and retention.", stack: ["Node", "Lambda", "DynamoDB"] },
-
-The export CardHeader was not found in module [project]/src/components/ui/card.tsx [app-rsc] (ecmascript).
-Did you mean to import ProjectCard?
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-[01:20:51.223] Browser ERROR   ./src/app/projects/page.tsx:1:1
-Export CardTitle doesn't exist in target module
-> 1 | import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  2 |
-  3 | const projects = [
-  4 |   { title: "Audit Logger Service", desc: "Centralized audit logging (serverless) with event envelopes and retention.", stack: ["Node", "Lambda", "DynamoDB"] },
-
-The export CardTitle was not found in module [project]/src/components/ui/card.tsx [app-rsc] (ecmascript).
-Did you mean to import ProjectCard?
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-[01:21:17.044] Browser ERROR   ./src/app/projects/page.tsx:1:1
-Export Card doesn't exist in target module
-> 1 | import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  2 |
-  3 | const projects = [
-  4 |   { title: "Audit Logger Service", desc: "Centralized audit logging (serverless) with event envelopes and retention.", stack: ["Node", "Lambda", "DynamoDB"] },
-
-The export Card was not found in module [project]/src/components/ui/card.tsx [app-rsc] (ecmascript).
-Did you mean to import ProjectCard?
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-[01:21:17.044] Browser ERROR   ./src/app/projects/page.tsx:1:1
-Export CardContent doesn't exist in target module
-> 1 | import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  2 |
-  3 | const projects = [
-  4 |   { title: "Audit Logger Service", desc: "Centralized audit logging (serverless) with event envelopes and retention.", stack: ["Node", "Lambda", "DynamoDB"] },
-
-The export CardContent was not found in module [project]/src/components/ui/card.tsx [app-rsc] (ecmascript).
-Did you mean to import ProjectCard?
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-[01:21:17.044] Browser ERROR   ./src/app/projects/page.tsx:1:1
-Export CardHeader doesn't exist in target module
-> 1 | import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  2 |
-  3 | const projects = [
-  4 |   { title: "Audit Logger Service", desc: "Centralized audit logging (serverless) with event envelopes and retention.", stack: ["Node", "Lambda", "DynamoDB"] },
-
-The export CardHeader was not found in module [project]/src/components/ui/card.tsx [app-rsc] (ecmascript).
-Did you mean to import ProjectCard?
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-[01:21:17.044] Browser ERROR   ./src/app/projects/page.tsx:1:1
-Export CardTitle doesn't exist in target module
-> 1 | import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  2 |
-  3 | const projects = [
-  4 |   { title: "Audit Logger Service", desc: "Centralized audit logging (serverless) with event envelopes and retention.", stack: ["Node", "Lambda", "DynamoDB"] },
-
-The export CardTitle was not found in module [project]/src/components/ui/card.tsx [app-rsc] (ecmascript).
-Did you mean to import ProjectCard?
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[95:12:41.689] Browser WARN    Image with src "/me.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[95:12:42.223] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[95:12:42.327] Browser WARN    Image with src "/me.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[95:12:42.327] Browser WARN    Image with src "/me.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[95:12:43.105] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[95:12:43.209] Browser WARN    Image with src "/me.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[95:12:43.209] Browser WARN    Image with src "/me.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[95:12:43.719] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[95:12:43.823] Browser WARN    Image with src "/me.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[95:12:43.823] Browser WARN    Image with src "/me.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[95:12:44.329] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[95:12:44.432] Browser WARN    Image with src "/me.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[95:12:44.433] Browser WARN    Image with src "/me.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[95:12:44.882] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[95:12:44.986] Browser WARN    Image with src "/me.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[95:12:44.986] Browser WARN    Image with src "/me.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[95:12:45.403] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[95:12:45.506] Browser WARN    Image with src "/me.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[95:12:45.506] Browser WARN    Image with src "/me.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[95:12:45.998] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[95:12:46.099] Browser WARN    Image with src "/me.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[95:12:46.099] Browser WARN    Image with src "/me.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.

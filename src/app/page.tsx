@@ -46,7 +46,7 @@ export default function Home() {
             >
               Download Resume
             </Link>
-            <Link href="mailto:akulikogowski@gmail.com" className="text-sm underline-offset-4 hover:underline">
+            <Link href="mailto:alekuligowski@gmail.com" className="text-sm underline-offset-4 hover:underline">
               Email
             </Link>
             <Link href="https://www.linkedin.com/in/akuligowski" target="_blank" className="text-sm underline-offset-4 hover:underline">
@@ -89,7 +89,7 @@ export default function Home() {
           </p>
 
           <div className="space-y-1">
-            <p><strong>Email:</strong> akulikogowski@gmail.com</p>
+            <p><strong>Email:</strong> alekuligowski@gmail.com</p>
             <p><strong>Location:</strong> Lima, Peru (transitioning to U.S. when visa approved)</p>
             <p><strong>Open to:</strong> Remote / flexible U.S. roles</p>
           </div>
