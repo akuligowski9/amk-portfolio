@@ -4,6 +4,7 @@ import { projects } from "@/lib/data/projects";
 
 export default function Home() {
   const featuredProject = [...projects].sort((a, b) => a.order - b.order)[0];
+  const paragraph = "text-base leading-relaxed text-slate-700";
 
   return (
     <main className="mx-auto max-w-5xl px-4 py-12 space-y-16">
@@ -26,20 +27,28 @@ export default function Home() {
             Software Engineer
           </p>
 
-          <p>Welcome to my portfolio 👋</p>
+          <p className={paragraph}>Welcome to my portfolio 👋</p>
 
-          <p>
+          <p className={paragraph}>
             Over the last five years, I lived as a digital nomad, traveling
             extensively while working remotely. As of 2025, I’m thrilled to have
-            married my wife and we’re transitioning from nomads to starting a
-            family.
+            married my wife, and we’re currently based in Peru with plans to
+            relocate to Michigan once her spousal visa is approved (anticipated
+            in 2026). 
           </p>
-
-          <p>
-            During that time, I worked in remote engineering roles that
-            strengthened my technical foundation. After a recent layoff tied to
-            U.S. education budget cuts, I’ve been building and shipping small
-            projects to stay sharp and current.
+            
+          <p className={paragraph}>
+            During this transition, I’m seeking remote or flexible
+            roles, though I’m open to relocating for the right opportunity. For
+            a full overview of my professional background, you can{" "}
+            <Link
+              href="/AMK2025Resume.pdf"
+              target="_blank"
+              className="underline decoration-slate-400 underline-offset-4 hover:decoration-slate-600"
+            >
+              download my resume
+            </Link>
+            .
           </p>
         </div>
       </section>
@@ -47,82 +56,65 @@ export default function Home() {
       {/* === Two-column details === */}
       <section className="grid md:grid-cols-2 gap-16">
         {/* Left */}
-        <div className="space-y-4">
+        <div className="space-y-6">
           <h2 className="text-xl font-semibold tracking-tight">
             What I&apos;m Working On
           </h2>
 
-          <p>
+          <p className={paragraph}>
             Right now, the body of work I’m most excited about is{" "}
-            <span className="font-medium">{featuredProject.title}</span> — a
+            <span className="font-medium text-slate-800">The Shelf</span>. It's a
             flexible attention-management app designed to support long-term
             goals, visualize progress, and create space to recognize
-            accomplishments while building healthy routines. Additional 
-            works and experiments can be found in{" "}
+            accomplishments while building healthy routines. Additional projects
+            and experiments can be found in{" "}
             <Link
               href="/projects"
               className="underline decoration-slate-400 underline-offset-4 hover:decoration-slate-600"
             >
-              Projects
+              Work
             </Link>
             .
           </p>
 
-          <p>
-            Alongside this work, I’m finishing my{" "}
-            <span className="font-medium">M.S. in Software Engineering</span> at{" "}
-            <span className="font-medium">West Virginia University</span>, with a
-            focus on systems thinking and software design. I’m also currently
-            reading{" "}
+          <p className={paragraph}>
+            I’m also finishing my{" "}
+            <span className="font-medium text-slate-800">
+              M.S. in Software Engineering at West Virginia University
+            </span>
+            , with a focus on systems thinking and software design.
+            During the program, I built and delivered{" "}
             <a
-              href="https://www.amazon.com/Code-Language-Computer-Hardware-Software/dp/0137909101"
+              href="https://github.com/akuligowski9/jbf"
               target="_blank"
               rel="noreferrer"
-              className="underline decoration-slate-400 underline-offset-4 hover:decoration-slate-600"
+              className="font-medium text-slate-800 underline decoration-slate-400 underline-offset-4 hover:decoration-slate-600"
             >
-              Code: The Hidden Language of Computer Hardware and Software
-            </a>{" "}
-            to deepen my understanding of how low-level systems shape
-            higher-level software abstractions.
+              Just Be Funny
+            </a>
+            , a full-stack, cross-platform mobile improv game and comedy academy
+            with real-time scoring. The project focused on translating abstract
+            game mechanics into a reliable, user-friendly mobile system.
           </p>
         </div>
 
         {/* Right */}
         <div className="space-y-10">
-          {/* Work Logistics */}
-          <div className="space-y-4">
-            <h2 className="text-xl font-semibold tracking-tight">
-              Professional Logistics
-            </h2>
-
-            <p className="text-slate-700">
-              I’m currently based in Lima, Peru, with plans to relocate to
-              Michigan once my wife’s spousal visa is approved (anticipated in
-              2026).
-            </p>
-
-            <p className="text-slate-700">
-              During this transition, I prefer remote or flexible roles, but
-              I’m open to relocating for the right opportunity. For a full overview of my professional background, you can{" "}
-              <Link
-                href="/AMK2025Resume.pdf"
-                target="_blank"
-                className="underline decoration-slate-400 underline-offset-4 hover:decoration-slate-600"
-              >
-                download my resume
-              </Link>
-              .
-            </p>
-
-          </div>
-
           {/* Contact */}
           <div className="space-y-4">
             <h2 className="text-xl font-semibold tracking-tight">Contact</h2>
 
-            <div className="space-y-2 text-sm">
+            <p className={paragraph}>
+              My preferred
+              method of contact is phone or email, and I aim to respond to all inquiries within 24 hours. If
+              you prefer connecting via LinkedIn or GitHub, that’s absolutely
+              fine too, just send me a message there. I’m always open to discussing new
+              collaborations.
+            </p>
+
+            <div className="space-y-2 text-base leading-relaxed text-slate-700">
               <p>
-                <strong>Phone:</strong>{" "}
+                <span className="font-medium text-slate-800">Phone:</span>{" "}
                 <a
                   className="underline underline-offset-4 hover:no-underline"
                   href="tel:+17347565627"
@@ -132,7 +124,7 @@ export default function Home() {
               </p>
 
               <p>
-                <strong>Email:</strong>{" "}
+                <span className="font-medium text-slate-800">Email:</span>{" "}
                 <a
                   className="underline underline-offset-4 hover:no-underline"
                   href="mailto:alekuligowski@gmail.com"
@@ -142,10 +134,10 @@ export default function Home() {
               </p>
 
               <p>
-                <strong>LinkedIn:</strong>{" "}
+                <span className="font-medium text-slate-800">LinkedIn:</span>{" "}
                 <a
                   className="underline underline-offset-4 hover:no-underline"
-                  href="https://www.linkedin.com/in/alexkuligowski/"
+                  href="https://www.linkedin.com/in/alexkuligowski"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -154,14 +146,14 @@ export default function Home() {
               </p>
 
               <p>
-                <strong>GitHub:</strong>{" "}
+                <span className="font-medium text-slate-800">GitHub:</span>{" "}
                 <a
                   className="underline underline-offset-4 hover:no-underline"
                   href="https://github.com/akuligowski9"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  github.com/akuligowski
+                  github.com/akuligowski9
                 </a>
               </p>
             </div>
