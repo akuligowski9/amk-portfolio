@@ -39,7 +39,7 @@ export default function Home() {
             
           <p className={paragraph}>
             During this transition, I’m seeking remote or flexible
-            roles, though I’m open to relocating for the right opportunity. For
+            roles while remaining open to relocating for the right opportunity. For
             a full overview of my professional background, you can{" "}
             <Link
               href="/AMK2025Resume.pdf"
