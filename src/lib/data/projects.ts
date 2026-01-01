@@ -11,7 +11,7 @@ export type Project = {
 export const projects: Project[] = [
   {
     title: "The Shelf",
-    desc: "Personal attention-management & life balancing companion for tracking and celebrating progress.",
+    desc: "A personal attention-management & life balancing companion for tracking and celebrating progress.",
     stack: ["Swift", "React", "Node.js", "Postgres"],
     lastUpdated: "December 2025",
     githubLink: "https://github.com/akuligowski9/the-shelf",
