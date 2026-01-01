@@ -11,8 +11,8 @@ export type Project = {
 export const projects: Project[] = [
   {
     title: "The Shelf",
-    desc: "Personal attention-management app for tracking and celebrating progress.",
-    stack: ["React Native", "Tailwind", "Vercel"],
+    desc: "Personal attention-management & life balancing companion for tracking and celebrating progress.",
+    stack: ["Swift", "React", "Node.js", "Postgres"],
     lastUpdated: "December 2025",
     githubLink: "https://github.com/akuligowski9/the-shelf",
     expandedDesc: "A personal app concept designed to help manage attention and celebrate progress. It focuses on flexible reflection schedules, idea parking, and tracking life balance rather than just daily streaks.",
