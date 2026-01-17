@@ -28,15 +28,6 @@ export const projects: Project[] = [
     order: 7
   },
   {
-    title: "Spare Bottle",
-    desc: "A drink catalog project exploring database design and promoting mindful drinking.",
-    stack: ["React", "Supabase"],
-    lastUpdated: "December 2025",
-    githubLink: "https://github.com/akuligowski9/spare-bottle",
-    expandedDesc: "Originally an idea to promote self-awareness in drinking by cataloging drinks and ingredients. It turned into a database design exploration for a drink catalog using React and Supabase, focusing on how to scale data and present ingredient combinations.",
-    order: 5
-  },
-  {
     title: "ChiriBudget",
     desc: "A budgeting app to track finances and visualize spending categories.",
     stack: ["React Native", "Supabase", "Vercel"],
