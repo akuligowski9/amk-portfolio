@@ -49,7 +49,7 @@ export function NavBar() {
 
         {/* RIGHT: Mobile menu button */}
         <button
-          className="md:hidden rounded px-2 py-1 text-white/80 hover:text-white"
+          className="md:hidden rounded px-3 py-2 text-2xl text-white/80 hover:text-white"
           aria-label="Toggle navigation"
           onClick={() => setOpen((v) => !v)}
         >
