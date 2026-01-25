@@ -23,7 +23,7 @@ export const projects: Project[] = [
   {
     title: "AMK Portfolio",
     desc: "A personal portfolio site to showcase projects and build a refined space beyond a traditional resume.",
-    stack: ["Next.js", "Tamagui", "Vercel"],
+    stack: ["Next.js", "Tailwind CSS", "Vercel"],
     lastUpdated: "January 2026",
     githubLink: "https://github.com/akuligowski9/amk-portfolio",
     expandedDesc: "This portfolio is my refined space to showcase my work and go beyond a standard resume. It’s built with Next.js and Tamagui on Vercel, and it’s a place to document my growth as a developer.",
