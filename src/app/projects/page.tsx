@@ -14,8 +14,7 @@ export default function Projects() {
       <h1 className="mb-6 text-3xl font-bold">Projects</h1>
 
       <p className="mb-10 max-w-2xl text-sm leading-relaxed text-slate-700">
-        These are a few of my personal experiments and projects. They aren’t professional work,
-        just my own creations and collaborations along the way. If you have any questions, feel free to reach out.
+        What I've been building. Questions welcome.
       </p>
 
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -102,14 +101,26 @@ export default function Projects() {
                       {p.lastUpdated}
                     </div>
 
-                    <a
-                      href={p.githubLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-block text-sm text-blue-600 hover:underline dark:text-blue-400"
-                    >
-                      View on GitHub →
-                    </a>
+                    <div className="flex flex-col gap-1">
+                      {p.demoLink && (
+                        <a
+                          href={p.demoLink}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-sm text-blue-600 hover:underline dark:text-blue-400"
+                        >
+                          View Demo →
+                        </a>
+                      )}
+                      <a
+                        href={p.githubLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-sm text-blue-600 hover:underline dark:text-blue-400"
+                      >
+                        View on GitHub →
+                      </a>
+                    </div>
 
                     {p.expandedDesc && (
                       <p className="text-slate-500">{p.expandedDesc}</p>

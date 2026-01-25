@@ -4,6 +4,7 @@ export type Project = {
   stack: string[];
   lastUpdated: string;
   githubLink: string;
+  demoLink?: string;
   expandedDesc?: string;
   order: number;
 };
@@ -12,9 +13,10 @@ export const projects: Project[] = [
   {
     title: "The Shelf",
     desc: "A personal attention-management & life balancing companion for tracking and celebrating progress.",
-    stack: ["Swift", "React", "Node.js", "Postgres"],
+    stack: ["React", "Node.js", "Postgres", "Express", "Cloud Run"],
     lastUpdated: "January 2026",
     githubLink: "https://github.com/akuligowski9/the-shelf",
+    demoLink: "https://demo-the-shelf.vercel.app/login",
     expandedDesc: "A personal app concept designed to help manage attention and celebrate progress. It focuses on flexible reflection schedules, idea parking, and tracking life balance rather than just daily streaks.",
     order: 1
   },
@@ -33,8 +35,9 @@ export const projects: Project[] = [
     stack: ["React Native", "Supabase", "Vercel"],
     lastUpdated: "December 2025",
     githubLink: "https://github.com/akuligowski9/chiribudget",
+    demoLink: "https://chiribudgetdemo.vercel.app",
     expandedDesc: "A personal budgeting app created to avoid using Excel and provide a more user-friendly way for my wife and me to track our finances. It visualizes spending categories and one-time expenses using React and Supabase.",
-    order: 4 
+    order: 2 
   },
     {
     title: "Abstractly",
@@ -52,7 +55,7 @@ export const projects: Project[] = [
     lastUpdated: "November 2024",
     githubLink: "https://github.com/akuligowski9/jbf",
     expandedDesc: "A ReactJS-based mobile app that gamifies improv. Built as a full-stack MVP with real-time scoring and cross-platform demos for iOS and Android.",
-    order: 2
+    order: 4
   },
   {
     title: "Brita",
