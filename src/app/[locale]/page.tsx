@@ -1,9 +1,9 @@
 import Image from "next/image";
-import Link from "next/link";
-import { projects } from "@/lib/data/projects";
+import { Link } from "@/i18n/routing";
+import { getTranslations } from 'next-intl/server';
 
-export default function Home() {
-  const featuredProject = [...projects].sort((a, b) => a.order - b.order)[0];
+export default async function Home() {
+  const t = await getTranslations('home');
   const paragraph = "text-base leading-relaxed text-slate-700";
 
   return (
@@ -24,26 +24,26 @@ export default function Home() {
         {/* Text */}
         <div className="space-y-4 max-w-xl">
           <p className="text-lg font-medium tracking-wide text-slate-800 uppercase">
-            Software Engineer
+            {t('role')}
           </p>
 
           <p className={paragraph}>
-            I've been in tech for 10 years. Started in QA, moved into solutions engineering, now I build full-stack apps. I ask questions and communicate clearly.
+            {t('intro')}
           </p>
 
           <p className={paragraph}>
-            Currently based in Lima, Peru with my wife during a visa transition, with plans to relocate to Michigan in 2026.
+            {t('location')}
           </p>
 
           <p className={paragraph}>
-            Open to remote roles or relocation for the right opportunity.{" "}
-            <Link
+            {t('availability')}{" "}
+            <a
               href="/AMK2025Resume.pdf"
               target="_blank"
               className="underline decoration-slate-400 underline-offset-4 hover:decoration-slate-600"
             >
-              Download my resume
-            </Link>
+              {t('downloadResume')}
+            </a>
             .
           </p>
         </div>
@@ -56,11 +56,11 @@ export default function Home() {
           {/* What I'm Working On */}
           <div className="space-y-4">
             <h2 className="text-xl font-semibold tracking-tight">
-              What I&apos;m Working On
+              {t('workingOnTitle')}
             </h2>
 
             <p className={paragraph}>
-              Creating with software is a daily practice. A couple of recent projects:
+              {t('workingOnIntro')}
             </p>
 
             <ul className="space-y-2 text-base leading-relaxed text-slate-700">
@@ -73,7 +73,7 @@ export default function Home() {
                 >
                   The Shelf
                 </a>
-                {" "}— An attention-management app for tracking progress and building healthy routines.
+                {" "}— {t('theShelfDesc')}
               </li>
               <li>
                 <a
@@ -84,17 +84,17 @@ export default function Home() {
                 >
                   ChiriBudget
                 </a>
-                {" "}— A budgeting app to track family finances and visualize spending.
+                {" "}— {t('chiriBudgetDesc')}
               </li>
             </ul>
 
             <p className={paragraph}>
-              More projects and experiments in{" "}
+              {t('moreProjects')}{" "}
               <Link
                 href="/projects"
                 className="underline decoration-slate-400 underline-offset-4 hover:decoration-slate-600"
               >
-                Work
+                {t('workLink')}
               </Link>
               .
             </p>
@@ -105,15 +105,15 @@ export default function Home() {
         <div className="space-y-10">
           {/* Contact */}
           <div className="space-y-4">
-            <h2 className="text-xl font-semibold tracking-tight">Contact</h2>
+            <h2 className="text-xl font-semibold tracking-tight">{t('contactTitle')}</h2>
 
             <p className={paragraph}>
-              Best way to reach me is phone or email. Also open to collaborating on GitHub projects or consulting on AI automation.
+              {t('contactIntro')}
             </p>
 
             <div className="space-y-2 text-base leading-relaxed text-slate-700">
               <p>
-                <span className="font-medium text-slate-800">Phone:</span>{" "}
+                <span className="font-medium text-slate-800">{t('phone')}:</span>{" "}
                 <a
                   className="underline underline-offset-4 hover:no-underline"
                   href="tel:+17347565627"
@@ -123,7 +123,7 @@ export default function Home() {
               </p>
 
               <p>
-                <span className="font-medium text-slate-800">Email:</span>{" "}
+                <span className="font-medium text-slate-800">{t('email')}:</span>{" "}
                 <a
                   className="underline underline-offset-4 hover:no-underline"
                   href="mailto:alekuligowski@gmail.com"
@@ -133,7 +133,7 @@ export default function Home() {
               </p>
 
               <p>
-                <span className="font-medium text-slate-800">LinkedIn:</span>{" "}
+                <span className="font-medium text-slate-800">{t('linkedin')}:</span>{" "}
                 <a
                   className="underline underline-offset-4 hover:no-underline"
                   href="https://www.linkedin.com/in/alexkuligowski"
@@ -145,7 +145,7 @@ export default function Home() {
               </p>
 
               <p>
-                <span className="font-medium text-slate-800">GitHub:</span>{" "}
+                <span className="font-medium text-slate-800">{t('github')}:</span>{" "}
                 <a
                   className="underline underline-offset-4 hover:no-underline"
                   href="https://github.com/akuligowski9"

@@ -1,0 +1,54 @@
+{
+  "metadata": {
+    "title": "Alex Kuligowski – Professional Project Portfolio",
+    "description": "Hello — welcome to my collection of software projects and ways to get in touch. Feel free to reach out if you'd like to connect or collaborate."
+  },
+  "nav": {
+    "home": "Home",
+    "work": "Work"
+  },
+  "home": {
+    "role": "Software Engineer",
+    "intro": "I've been in tech for 10 years. Started in QA, moved into solutions engineering, now I build full-stack apps. I ask questions and communicate clearly.",
+    "location": "Currently based in Lima, Peru with my wife during a visa transition, with plans to relocate to Michigan in 2026.",
+    "availability": "Open to remote roles or relocation for the right opportunity.",
+    "downloadResume": "Download my resume",
+    "workingOnTitle": "What I'm Working On",
+    "workingOnIntro": "Creating with software is a daily practice. A couple of recent projects:",
+    "theShelfDesc": "An attention-management app for tracking progress and building healthy routines.",
+    "chiriBudgetDesc": "A budgeting app to track family finances and visualize spending.",
+    "moreProjects": "More projects and experiments in",
+    "workLink": "Work",
+    "contactTitle": "Contact",
+    "contactIntro": "Best way to reach me is phone or email. Open to GitHub collaborations. Available for software and AI consulting.",
+    "phone": "Phone",
+    "email": "Email",
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "What I've been building. Questions welcome.",
+    "filterAll": "All",
+    "demo": "Demo",
+    "noResults": "No projects found with that technology.",
+    "status": {
+      "Active": "Active",
+      "Maintenance": "Maintenance",
+      "Archived": "Archived"
+    },
+    "statusDescriptions": {
+      "Active": "Actively developed with regular updates",
+      "Maintenance": "Stable but only receiving bug fixes",
+      "Archived": "No longer maintained"
+    },
+    "descriptions": {
+      "the-shelf": "A personal attention-management & life balancing companion for tracking and celebrating progress.",
+      "chiribudget": "A budgeting app to track finances and visualize spending categories.",
+      "abstractly": "A research radar for tracking AI trends and translating emerging techniques into practical applications.",
+      "just-be-funny": "Improv game and creator hub for comedy themes.",
+      "brita": "AI-powered documentation generator for contextual README files.",
+      "amk-portfolio": "A personal portfolio site to showcase projects and build a refined space beyond a traditional resume."
+    }
+  }
+}

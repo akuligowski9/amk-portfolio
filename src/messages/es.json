@@ -1,0 +1,54 @@
+{
+  "metadata": {
+    "title": "Alex Kuligowski – Portafolio Profesional de Proyectos",
+    "description": "Hola — bienvenido a mi coleccion de proyectos de software y formas de contactarme. No dudes en escribirme si deseas conectar o colaborar."
+  },
+  "nav": {
+    "home": "Inicio",
+    "work": "Trabajo"
+  },
+  "home": {
+    "role": "Ingeniero de Software",
+    "intro": "Llevo 10 anos en tecnologia. Empece en QA, pase a ingenieria de soluciones, y ahora desarrollo aplicaciones full-stack. Hago preguntas y me comunico claramente.",
+    "location": "Actualmente vivo en Lima, Peru con mi esposa durante una transicion de visa, con planes de mudarnos a Michigan en 2026.",
+    "availability": "Abierto a roles remotos o reubicacion para la oportunidad correcta.",
+    "downloadResume": "Descargar mi curriculum",
+    "workingOnTitle": "En Que Estoy Trabajando",
+    "workingOnIntro": "Crear con software es una practica diaria. Un par de proyectos recientes:",
+    "theShelfDesc": "Una app de gestion de atencion para seguir el progreso y construir rutinas saludables.",
+    "chiriBudgetDesc": "Una app de presupuesto para rastrear finanzas familiares y visualizar gastos.",
+    "moreProjects": "Mas proyectos y experimentos en",
+    "workLink": "Trabajo",
+    "contactTitle": "Contacto",
+    "contactIntro": "La mejor forma de contactarme es por telefono o correo. Abierto a colaboraciones en GitHub. Disponible para consultoria en software e IA.",
+    "phone": "Telefono",
+    "email": "Correo",
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  },
+  "projects": {
+    "title": "Proyectos",
+    "subtitle": "Lo que he estado construyendo. Preguntas bienvenidas.",
+    "filterAll": "Todos",
+    "demo": "Demo",
+    "noResults": "No se encontraron proyectos con esa tecnologia.",
+    "status": {
+      "Active": "Activo",
+      "Maintenance": "Mantenimiento",
+      "Archived": "Archivado"
+    },
+    "statusDescriptions": {
+      "Active": "En desarrollo activo con actualizaciones regulares",
+      "Maintenance": "Estable pero solo recibiendo correcciones de errores",
+      "Archived": "Ya no se mantiene"
+    },
+    "descriptions": {
+      "the-shelf": "Un companero personal de gestion de atencion y equilibrio de vida para seguir y celebrar el progreso.",
+      "chiribudget": "Una app de presupuesto para rastrear finanzas y visualizar categorias de gastos.",
+      "abstractly": "Un radar de investigacion para seguir tendencias de IA y traducir tecnicas emergentes en aplicaciones practicas.",
+      "just-be-funny": "Juego de improvisacion y centro de creadores para temas de comedia.",
+      "brita": "Generador de documentacion impulsado por IA para archivos README contextuales.",
+      "amk-portfolio": "Un sitio de portafolio personal para mostrar proyectos y construir un espacio refinado mas alla de un curriculum tradicional."
+    }
+  }
+}
