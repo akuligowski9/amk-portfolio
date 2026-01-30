@@ -28,15 +28,7 @@ export default async function Home() {
           </p>
 
           <p className={paragraph}>
-            {t('intro')}
-          </p>
-
-          <p className={paragraph}>
-            {t('location')}
-          </p>
-
-          <p className={paragraph}>
-            {t('availability')}{" "}
+            {t('intro')}{" "}
             <a
               href="/AMK2025Resume.pdf"
               target="_blank"
