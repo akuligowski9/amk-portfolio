@@ -25,6 +25,8 @@ const projectDescriptionKeys: Record<string, string> = {
   "Just Be Funny": "just-be-funny",
   "Brita": "brita",
   "AMK Portfolio": "amk-portfolio",
+  "ProjectBridge": "project-bridge",
+  "ForThoseHere": "for-those-here",
 };
 
 export default function Projects() {
@@ -110,15 +112,17 @@ export default function Projects() {
                       {t('demo')}
                     </a>
                   )}
-                  <a
-                    href={p.githubLink}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1.5 text-sm text-blue-600 hover:underline dark:text-blue-400"
-                  >
-                    <Github className="h-4 w-4" />
-                    GitHub
-                  </a>
+                  {p.githubLink && (
+                    <a
+                      href={p.githubLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 text-sm text-blue-600 hover:underline dark:text-blue-400"
+                    >
+                      <Github className="h-4 w-4" />
+                      GitHub
+                    </a>
+                  )}
                 </div>
 
                 <p className="mb-3 text-sm text-slate-500">

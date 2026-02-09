@@ -69,14 +69,20 @@ export default async function Home() {
               </li>
               <li>
                 <a
-                  href="https://chiribudgetdemo.vercel.app"
+                  href="https://github.com/akuligowski9/project-bridge"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="font-medium text-slate-800 underline decoration-slate-400 underline-offset-4 hover:decoration-slate-600"
                 >
-                  ChiriBudget
+                  ProjectBridge
                 </a>
-                {" "}— {t('chiriBudgetDesc')}
+                {" "}— {t('projectBridgeDesc')}
+              </li>
+              <li>
+                <span className="font-medium text-slate-800">
+                  ForThoseHere
+                </span>
+                {" "}— {t('forThoseHereDesc')}
               </li>
             </ul>
 

@@ -4,7 +4,7 @@ export type Project = {
   title: string;
   desc: string;
   stack: string[];
-  githubLink: string;
+  githubLink?: string;
   demoLink?: string;
   order: number;
   status: ProjectStatus;
@@ -21,12 +21,27 @@ export const projects: Project[] = [
     status: "Active",
   },
   {
+    title: "ProjectBridge",
+    desc: "A local-first developer tool that analyzes your GitHub repos against job descriptions and recommends projects to close skill gaps.",
+    stack: ["Python", "Rust", "Svelte", "Tauri", "TypeScript", "CLI"],
+    githubLink: "https://github.com/akuligowski9/project-bridge",
+    order: 2,
+    status: "Active",
+  },
+  {
+    title: "ForThoseHere",
+    desc: "A mobile-first app for end-of-life planning — helping families document wishes, manage contacts, and share critical information with loved ones.",
+    stack: ["React Native", "Expo", "MongoDB", "Clerk", "Docker"],
+    order: 3,
+    status: "Active",
+  },
+  {
     title: "ChiriBudget",
     desc: "A budgeting app to track finances and visualize spending categories.",
     stack: ["React Native", "Supabase", "Vercel"],
     githubLink: "https://github.com/akuligowski9/chiribudget",
     demoLink: "https://chiribudgetdemo.vercel.app",
-    order: 2,
+    order: 4,
     status: "Active",
   },
   {
@@ -34,7 +49,7 @@ export const projects: Project[] = [
     desc: "A research radar for tracking AI trends and translating emerging techniques into practical applications.",
     stack: ["Laravel", "OpenAI API", "Postgres"],
     githubLink: "https://github.com/akuligowski9/abstractly",
-    order: 3,
+    order: 5,
     status: "Active",
   },
   {
@@ -42,7 +57,7 @@ export const projects: Project[] = [
     desc: "Improv game and creator hub for comedy themes.",
     stack: ["React Native", "Node.js", "MongoDB"],
     githubLink: "https://github.com/akuligowski9/jbf",
-    order: 4,
+    order: 6,
     status: "Maintenance",
   },
   {
@@ -50,7 +65,7 @@ export const projects: Project[] = [
     desc: "AI-powered documentation generator for contextual README files.",
     stack: ["Python", "Anthropic Claude", "GitHub API"],
     githubLink: "https://github.com/rumatveev/brita",
-    order: 5,
+    order: 7,
     status: "Maintenance",
   },
   {
@@ -58,7 +73,7 @@ export const projects: Project[] = [
     desc: "A personal portfolio site to showcase projects and build a refined space beyond a traditional resume.",
     stack: ["Next.js", "Tailwind CSS", "Vercel"],
     githubLink: "https://github.com/akuligowski9/amk-portfolio",
-    order: 6,
+    order: 8,
     status: "Active",
   },
 ];
