@@ -30,7 +30,7 @@ export const projects: Project[] = [
   },
   {
     title: "ForThoseHere",
-    desc: "A mobile-first app for end-of-life planning — helping families document wishes, manage contacts, and share critical information with loved ones.",
+    desc: "A mobile app for end-of-life planning so loved ones don't have to guess on the days they deserve to grieve.",
     stack: ["React Native", "Expo", "MongoDB", "Clerk", "Docker"],
     order: 3,
     status: "Active",

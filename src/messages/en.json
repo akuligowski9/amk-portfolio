@@ -15,7 +15,7 @@
     "workingOnIntro": "Creating with software is a daily practice. A couple of recent projects:",
     "theShelfDesc": "An attention-management app for tracking progress and building healthy routines.",
     "projectBridgeDesc": "A local-first tool that analyzes your repos against job descriptions and recommends projects to close skill gaps.",
-    "forThoseHereDesc": "A mobile-first app for end-of-life planning — helping families document wishes and share critical information.",
+    "forThoseHereDesc": "A mobile app for end-of-life planning so loved ones don't have to guess on the days they deserve to grieve.",
     "moreProjects": "More projects and experiments in",
     "workLink": "Work",
     "contactTitle": "Contact",
@@ -30,6 +30,8 @@
     "subtitle": "What I've been building. Questions welcome.",
     "filterAll": "All",
     "demo": "Demo",
+    "privateRepo": "Private",
+    "comingSoon": "App coming soon",
     "noResults": "No projects found with that technology.",
     "status": {
       "Active": "Active",
@@ -49,7 +51,7 @@
       "brita": "AI-powered documentation generator for contextual README files.",
       "amk-portfolio": "A personal portfolio site to showcase projects and build a refined space beyond a traditional resume.",
       "project-bridge": "A local-first developer tool that analyzes your GitHub repos against job descriptions and recommends projects to close skill gaps. Privacy-first — everything runs on your machine.",
-      "for-those-here": "A mobile-first app for end-of-life planning — helping families document wishes, manage contacts, and share critical information with loved ones."
+      "for-those-here": "A mobile app for end-of-life planning so loved ones don't have to guess on the days they deserve to grieve."
     }
   }
 }

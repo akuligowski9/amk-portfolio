@@ -15,7 +15,7 @@
     "workingOnIntro": "Crear con software es una practica diaria. Un par de proyectos recientes:",
     "theShelfDesc": "Una app de gestion de atencion para seguir el progreso y construir rutinas saludables.",
     "projectBridgeDesc": "Una herramienta local que analiza tus repositorios contra descripciones de trabajo y recomienda proyectos para cerrar brechas de habilidades.",
-    "forThoseHereDesc": "Una app movil para la planificacion del final de vida — ayudando a las familias a documentar deseos y compartir informacion critica.",
+    "forThoseHereDesc": "Una app movil para la planificacion del final de vida para que los seres queridos no tengan que adivinar en los dias que merecen llorar.",
     "moreProjects": "Mas proyectos y experimentos en",
     "workLink": "Trabajo",
     "contactTitle": "Contacto",
@@ -30,6 +30,8 @@
     "subtitle": "Lo que he estado construyendo. Preguntas bienvenidas.",
     "filterAll": "Todos",
     "demo": "Demo",
+    "privateRepo": "Privado",
+    "comingSoon": "App proximamente",
     "noResults": "No se encontraron proyectos con esa tecnologia.",
     "status": {
       "Active": "Activo",
@@ -49,7 +51,7 @@
       "brita": "Generador de documentacion impulsado por IA para archivos README contextuales.",
       "amk-portfolio": "Un sitio de portafolio personal para mostrar proyectos y construir un espacio refinado mas alla de un curriculum tradicional.",
       "project-bridge": "Una herramienta local para desarrolladores que analiza tus repositorios de GitHub contra descripciones de trabajo y recomienda proyectos para cerrar brechas de habilidades. Privacidad primero — todo se ejecuta en tu maquina.",
-      "for-those-here": "Una app movil para la planificacion del final de vida — ayudando a las familias a documentar deseos, gestionar contactos y compartir informacion critica con sus seres queridos."
+      "for-those-here": "Una app movil para la planificacion del final de vida para que los seres queridos no tengan que adivinar en los dias que merecen llorar."
     }
   }
 }

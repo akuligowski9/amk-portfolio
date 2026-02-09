@@ -3,7 +3,7 @@
 import { useState, useMemo } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { projects, ProjectStatus } from "@/lib/data/projects";
-import { Github, ExternalLink } from "lucide-react";
+import { Github, ExternalLink, Lock } from "lucide-react";
 import { useTranslations } from 'next-intl';
 
 const sortedProjects = [...projects].sort((a, b) => a.order - b.order);
@@ -112,7 +112,7 @@ export default function Projects() {
                       {t('demo')}
                     </a>
                   )}
-                  {p.githubLink && (
+                  {p.githubLink ? (
                     <a
                       href={p.githubLink}
                       target="_blank"
@@ -122,6 +122,16 @@ export default function Projects() {
                       <Github className="h-4 w-4" />
                       GitHub
                     </a>
+                  ) : (
+                    <span className="inline-flex items-center gap-1.5 text-sm text-slate-400 dark:text-slate-500">
+                      <Lock className="h-3.5 w-3.5" />
+                      {t('privateRepo')}
+                    </span>
+                  )}
+                  {!p.demoLink && !p.githubLink && (
+                    <span className="inline-flex items-center gap-1.5 text-sm text-slate-400 dark:text-slate-500">
+                      {t('comingSoon')}
+                    </span>
                   )}
                 </div>
 
