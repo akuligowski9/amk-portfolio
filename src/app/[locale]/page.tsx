@@ -28,7 +28,11 @@ export default async function Home() {
           </p>
 
           <p className={paragraph}>
-            {t('intro')}{" "}
+            {t('intro')}
+          </p>
+
+          <p className={paragraph}>
+            {t('availability')}{" "}
             <a
               href="/AMK2025Resume.pdf"
               target="_blank"
@@ -57,15 +61,10 @@ export default async function Home() {
 
             <ul className="space-y-2 text-base leading-relaxed text-slate-700">
               <li>
-                <a
-                  href="https://github.com/akuligowski9/kestrel"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="font-medium text-slate-800 underline decoration-slate-400 underline-offset-4 hover:decoration-slate-600"
-                >
-                  Kestrel
-                </a>
-                {" "}— {t('kestrelDesc')}
+                <span className="font-medium text-slate-800">
+                  ForThoseHere
+                </span>
+                {" "}— {t('forThoseHereDesc')}
               </li>
               <li>
                 <a
@@ -90,10 +89,15 @@ export default async function Home() {
                 {" "}— {t('projectBridgeDesc')}
               </li>
               <li>
-                <span className="font-medium text-slate-800">
-                  ForThoseHere
-                </span>
-                {" "}— {t('forThoseHereDesc')}
+                <a
+                  href="https://github.com/akuligowski9/kestrel"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-medium text-slate-800 underline decoration-slate-400 underline-offset-4 hover:decoration-slate-600"
+                >
+                  Kestrel
+                </a>
+                {" "}— {t('kestrelDesc')}
               </li>
             </ul>
 

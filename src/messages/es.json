@@ -10,17 +10,18 @@
   "home": {
     "role": "Ingeniero de Software",
     "intro": "Llevo 10 anos en tecnologia. Empece en QA, pase a ingenieria de soluciones, y ahora desarrollo aplicaciones full-stack. Hago preguntas y me comunico claramente.",
+    "availability": "Actualmente buscando mi proximo rol. Disponible para consultoria en software e IA.",
     "downloadResume": "Descargar mi curriculum",
     "workingOnTitle": "En Que Estoy Trabajando",
     "workingOnIntro": "Crear con software es una practica diaria. Un par de proyectos recientes:",
-    "kestrelDesc": "Un monitor de salud del sistema en C++ y Swift para macOS — diseno estilo embebido con inyeccion de fallos integrada.",
+    "kestrelDesc": "Un monitor de salud del sistema en C++ y Swift para macOS. Diseno estilo embebido con inyeccion de fallos integrada.",
     "theShelfDesc": "Una app de gestion de atencion para seguir el progreso y construir rutinas saludables.",
     "projectBridgeDesc": "Una herramienta local que analiza tus repositorios contra descripciones de trabajo y recomienda proyectos para cerrar brechas de habilidades.",
     "forThoseHereDesc": "Una app movil para la planificacion del final de vida para que los seres queridos no tengan que adivinar en los dias que merecen llorar.",
     "moreProjects": "Mas proyectos y experimentos en",
     "workLink": "Trabajo",
     "contactTitle": "Contacto",
-    "contactIntro": "La mejor forma de contactarme es por telefono o correo. Abierto a colaboraciones en GitHub. Disponible para consultoria en software e IA.",
+    "contactIntro": "La mejor forma de contactarme es por telefono o correo. Abierto a colaboraciones en GitHub.",
     "phone": "Telefono",
     "email": "Correo",
     "linkedin": "LinkedIn",
@@ -52,7 +53,7 @@
       "just-be-funny": "Juego de improvisacion y centro de creadores para temas de comedia.",
       "brita": "Generador de documentacion impulsado por IA para archivos README contextuales.",
       "amk-portfolio": "Un sitio de portafolio personal para mostrar proyectos y construir un espacio refinado mas alla de un curriculum tradicional.",
-      "project-bridge": "Una herramienta local para desarrolladores que analiza tus repositorios de GitHub contra descripciones de trabajo y recomienda proyectos para cerrar brechas de habilidades. Privacidad primero — todo se ejecuta en tu maquina.",
+      "project-bridge": "Una herramienta local para desarrolladores que analiza tus repositorios de GitHub contra descripciones de trabajo y recomienda proyectos para cerrar brechas de habilidades. Privacidad primero, todo se ejecuta en tu maquina.",
       "for-those-here": "Una app movil para la planificacion del final de vida para que los seres queridos no tengan que adivinar en los dias que merecen llorar."
     }
   }
