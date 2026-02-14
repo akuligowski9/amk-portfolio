@@ -58,6 +58,17 @@ export default async function Home() {
             <ul className="space-y-2 text-base leading-relaxed text-slate-700">
               <li>
                 <a
+                  href="https://github.com/akuligowski9/kestrel"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-medium text-slate-800 underline decoration-slate-400 underline-offset-4 hover:decoration-slate-600"
+                >
+                  Kestrel
+                </a>
+                {" "}— {t('kestrelDesc')}
+              </li>
+              <li>
+                <a
                   href="https://demo-the-shelf.vercel.app/login"
                   target="_blank"
                   rel="noopener noreferrer"

@@ -13,6 +13,7 @@
     "downloadResume": "Download my resume",
     "workingOnTitle": "What I'm Working On",
     "workingOnIntro": "Creating with software is a daily practice. A couple of recent projects:",
+    "kestrelDesc": "A C++ and Swift system health monitor for macOS — embedded-style design with built-in fault injection.",
     "theShelfDesc": "An attention-management app for tracking progress and building healthy routines.",
     "projectBridgeDesc": "A local-first tool that analyzes your repos against job descriptions and recommends projects to close skill gaps.",
     "forThoseHereDesc": "A mobile app for end-of-life planning so loved ones don't have to guess on the days they deserve to grieve.",
@@ -45,6 +46,7 @@
     },
     "descriptions": {
       "the-shelf": "A personal attention-management & life balancing companion for tracking and celebrating progress.",
+      "kestrel": "An embedded-style system health monitor for macOS with a C++ core engine, Swift menu bar UI, and built-in fault injection for validation.",
       "chiribudget": "A budgeting app to track finances and visualize spending categories.",
       "abstractly": "A research radar for tracking AI trends and translating emerging techniques into practical applications.",
       "just-be-funny": "Improv game and creator hub for comedy themes.",

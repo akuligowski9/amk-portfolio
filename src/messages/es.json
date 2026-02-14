@@ -13,6 +13,7 @@
     "downloadResume": "Descargar mi curriculum",
     "workingOnTitle": "En Que Estoy Trabajando",
     "workingOnIntro": "Crear con software es una practica diaria. Un par de proyectos recientes:",
+    "kestrelDesc": "Un monitor de salud del sistema en C++ y Swift para macOS — diseno estilo embebido con inyeccion de fallos integrada.",
     "theShelfDesc": "Una app de gestion de atencion para seguir el progreso y construir rutinas saludables.",
     "projectBridgeDesc": "Una herramienta local que analiza tus repositorios contra descripciones de trabajo y recomienda proyectos para cerrar brechas de habilidades.",
     "forThoseHereDesc": "Una app movil para la planificacion del final de vida para que los seres queridos no tengan que adivinar en los dias que merecen llorar.",
@@ -45,6 +46,7 @@
     },
     "descriptions": {
       "the-shelf": "Un companero personal de gestion de atencion y equilibrio de vida para seguir y celebrar el progreso.",
+      "kestrel": "Un monitor de salud del sistema estilo embebido para macOS con un motor central en C++, interfaz Swift en la barra de menu e inyeccion de fallos integrada para validacion.",
       "chiribudget": "Una app de presupuesto para rastrear finanzas y visualizar categorias de gastos.",
       "abstractly": "Un radar de investigacion para seguir tendencias de IA y traducir tecnicas emergentes en aplicaciones practicas.",
       "just-be-funny": "Juego de improvisacion y centro de creadores para temas de comedia.",

@@ -20,6 +20,7 @@ const statusDotStyles: Record<ProjectStatus, string> = {
 
 const projectDescriptionKeys: Record<string, string> = {
   "The Shelf": "the-shelf",
+  "Kestrel": "kestrel",
   "ChiriBudget": "chiribudget",
   "Abstractly": "abstractly",
   "Just Be Funny": "just-be-funny",
