@@ -54,7 +54,8 @@
       "brita": "AI-powered documentation generator for contextual README files.",
       "amk-portfolio": "A personal portfolio site to showcase projects and build a refined space beyond a traditional resume.",
       "project-bridge": "A local-first developer tool that analyzes your GitHub repos against job descriptions and recommends projects to close skill gaps. Privacy-first, everything runs on your machine.",
-      "for-those-here": "A mobile app for end-of-life planning so loved ones don't have to guess on the days they deserve to grieve."
+      "for-those-here": "A mobile app for end-of-life planning so loved ones don't have to guess on the days they deserve to grieve.",
+      "uywayki": "A pet care management app for Lima, Peru. Vaccination tracking, care schedules, clinic discovery with MapKit, and WhatsApp-based appointment requests. Built with SwiftUI and Supabase."
     }
   }
 }

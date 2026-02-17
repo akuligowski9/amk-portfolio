@@ -40,7 +40,14 @@ export const projects: Project[] = [
     title: "ForThoseHere",
     desc: "A mobile app for end-of-life planning so loved ones don't have to guess on the days they deserve to grieve.",
     stack: ["React Native", "Expo", "MongoDB", "Clerk", "Docker"],
-    order: 4,
+    order: 9,
+    status: "Active",
+  },
+  {
+    title: "Uywayki",
+    desc: "A pet care management app for Lima, Peru. Vaccination tracking, care schedules, clinic discovery with MapKit, and WhatsApp-based appointment requests.",
+    stack: ["SwiftUI", "SwiftData", "Supabase", "MapKit", "SPM"],
+    order: 10,
     status: "Active",
   },
   {
@@ -48,7 +55,7 @@ export const projects: Project[] = [
     desc: "A research radar for tracking AI trends and translating emerging techniques into practical applications.",
     stack: ["Laravel", "OpenAI API", "Postgres"],
     githubLink: "https://github.com/akuligowski9/abstractly",
-    order: 5,
+    order: 4,
     status: "Active",
   },
   {
@@ -57,7 +64,7 @@ export const projects: Project[] = [
     stack: ["React Native", "Supabase", "Vercel"],
     githubLink: "https://github.com/akuligowski9/chiribudget",
     demoLink: "https://chiribudgetdemo.vercel.app",
-    order: 6,
+    order: 5,
     status: "Active",
   },
   {
@@ -65,7 +72,7 @@ export const projects: Project[] = [
     desc: "Improv game and creator hub for comedy themes.",
     stack: ["React Native", "Node.js", "MongoDB"],
     githubLink: "https://github.com/akuligowski9/jbf",
-    order: 7,
+    order: 6,
     status: "Maintenance",
   },
   {
@@ -73,7 +80,7 @@ export const projects: Project[] = [
     desc: "AI-powered documentation generator for contextual README files.",
     stack: ["Python", "Anthropic Claude", "GitHub API"],
     githubLink: "https://github.com/rumatveev/brita",
-    order: 8,
+    order: 7,
     status: "Maintenance",
   },
   {
@@ -81,7 +88,7 @@ export const projects: Project[] = [
     desc: "A personal portfolio site to showcase projects and build a refined space beyond a traditional resume.",
     stack: ["Next.js", "Tailwind CSS", "Vercel"],
     githubLink: "https://github.com/akuligowski9/amk-portfolio",
-    order: 9,
+    order: 8,
     status: "Active",
   },
 ];

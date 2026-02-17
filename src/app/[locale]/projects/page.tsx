@@ -28,6 +28,7 @@ const projectDescriptionKeys: Record<string, string> = {
   "AMK Portfolio": "amk-portfolio",
   "ProjectBridge": "project-bridge",
   "ForThoseHere": "for-those-here",
+  "Uywayki": "uywayki",
 };
 
 export default function Projects() {

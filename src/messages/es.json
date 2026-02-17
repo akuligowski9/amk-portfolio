@@ -54,7 +54,8 @@
       "brita": "Generador de documentacion impulsado por IA para archivos README contextuales.",
       "amk-portfolio": "Un sitio de portafolio personal para mostrar proyectos y construir un espacio refinado mas alla de un curriculum tradicional.",
       "project-bridge": "Una herramienta local para desarrolladores que analiza tus repositorios de GitHub contra descripciones de trabajo y recomienda proyectos para cerrar brechas de habilidades. Privacidad primero, todo se ejecuta en tu maquina.",
-      "for-those-here": "Una app movil para la planificacion del final de vida para que los seres queridos no tengan que adivinar en los dias que merecen llorar."
+      "for-those-here": "Una app movil para la planificacion del final de vida para que los seres queridos no tengan que adivinar en los dias que merecen llorar.",
+      "uywayki": "Una app de gestion de cuidado de mascotas para Lima, Peru. Seguimiento de vacunas, horarios de cuidado, descubrimiento de clinicas con MapKit y solicitudes de citas por WhatsApp. Construida con SwiftUI y Supabase."
     }
   }
 }
