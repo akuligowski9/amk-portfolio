@@ -13,7 +13,7 @@
     "availability": "Currently looking for my next role. Available for software and AI consulting.",
     "downloadResume": "Download my resume",
     "workingOnTitle": "What I'm Working On",
-    "workingOnIntro": "Creating with software is a daily practice. A couple of recent projects:",
+    "workingOnIntro": "Creating with software is a daily practice. A few recent projects:",
     "kestrelDesc": "A C++ and Swift system health monitor for macOS. Embedded-style design with built-in fault injection.",
     "theShelfDesc": "An attention-management app for tracking progress and building healthy routines.",
     "projectBridgeDesc": "A local-first tool that analyzes your repos against job descriptions and recommends projects to close skill gaps.",
