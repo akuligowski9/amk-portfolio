@@ -43,7 +43,7 @@ export const projects: Project[] = [
     desc: "A research radar for tracking AI trends and translating emerging techniques into practical applications.",
     stack: ["Laravel", "OpenAI API", "Postgres"],
     githubLink: "https://github.com/akuligowski9/abstractly",
-    order: 5,
+    order: 6,
   },
   {
     title: "ChiriBudget",
@@ -51,13 +51,13 @@ export const projects: Project[] = [
     stack: ["React Native", "Supabase", "Vercel"],
     githubLink: "https://github.com/akuligowski9/chiribudget",
     demoLink: "https://chiribudgetdemo.vercel.app",
-    order: 6,
+    order: 7,
   },
   {
     title: "ForThoseHere",
     desc: "A mobile app for end-of-life planning so loved ones don't have to guess on the days they deserve to grieve.",
     stack: ["React Native", "Expo", "MongoDB", "Clerk", "Docker"],
-    order: 7,
+    order: 8,
   },
   {
     title: "API Explorer",
@@ -65,6 +65,6 @@ export const projects: Project[] = [
     stack: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "Vercel"],
     githubLink: "https://github.com/akuligowski9/api-explorer",
     websiteLink: "https://public-apis-explorer.vercel.app",
-    order: 8,
+    order: 5,
   },
 ];
