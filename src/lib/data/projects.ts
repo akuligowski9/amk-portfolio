@@ -59,4 +59,12 @@ export const projects: Project[] = [
     stack: ["React Native", "Expo", "MongoDB", "Clerk", "Docker"],
     order: 7,
   },
+  {
+    title: "API Explorer",
+    desc: "A visual front-end for 1,500+ public APIs with rendered previews, side-by-side comparison, and instant docs.",
+    stack: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "Vercel"],
+    githubLink: "https://github.com/akuligowski9/api-explorer",
+    websiteLink: "https://public-apis-explorer.vercel.app",
+    order: 8,
+  },
 ];

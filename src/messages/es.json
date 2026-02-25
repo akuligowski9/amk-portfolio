@@ -54,7 +54,8 @@
       "abstractly": "Un radar de investigacion para seguir tendencias de IA y traducir tecnicas emergentes en aplicaciones practicas.",
       "project-bridge": "Una herramienta local para desarrolladores que analiza tus repositorios de GitHub contra descripciones de trabajo y recomienda proyectos para cerrar brechas de habilidades. Privacidad primero, todo se ejecuta en tu maquina.",
       "for-those-here": "Una app movil para la planificacion del final de vida para que los seres queridos no tengan que adivinar en los dias que merecen llorar.",
-      "uywayki": "Una aplicación móvil de gestión de cuidado de mascotas para Lima, Perú. Seguimiento de vacunas, mapa de más de 800 servicios locales para mascotas, recordatorios de cuidado y contacto por WhatsApp para citas."
+      "uywayki": "Una aplicación móvil de gestión de cuidado de mascotas para Lima, Perú. Seguimiento de vacunas, mapa de más de 800 servicios locales para mascotas, recordatorios de cuidado y contacto por WhatsApp para citas.",
+      "api-explorer": "Un front-end visual para mas de 1,500 APIs publicas con vistas previas renderizadas, comparacion lado a lado y documentacion instantanea."
     }
   }
 }
