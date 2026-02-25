@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useRef, useEffect, useCallback } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { projects } from "@/lib/data/projects";
 import { Github, Lock, Globe } from "lucide-react";
@@ -26,6 +26,41 @@ const projectDescriptionKeys: Record<string, string> = {
 export default function Projects() {
   const t = useTranslations('projects');
   const [selectedTech, setSelectedTech] = useState<string | null>(null);
+  const scrollRef = useRef<HTMLDivElement>(null);
+  const [canScrollLeft, setCanScrollLeft] = useState(false);
+  const [canScrollRight, setCanScrollRight] = useState(false);
+
+  const checkScroll = useCallback(() => {
+    const el = scrollRef.current;
+    if (!el) return;
+    setCanScrollLeft(el.scrollLeft > 2);
+    setCanScrollRight(el.scrollLeft + el.clientWidth < el.scrollWidth - 2);
+  }, []);
+
+  useEffect(() => {
+    const el = scrollRef.current;
+    if (!el) return;
+
+    checkScroll();
+    el.addEventListener("scroll", checkScroll, { passive: true });
+    const observer = new ResizeObserver(checkScroll);
+    observer.observe(el);
+
+    return () => {
+      el.removeEventListener("scroll", checkScroll);
+      observer.disconnect();
+    };
+  }, [checkScroll]);
+
+  // Auto-scroll active chip into view
+  useEffect(() => {
+    const el = scrollRef.current;
+    if (!el) return;
+    const active = el.querySelector("[data-active='true']") as HTMLElement;
+    if (active) {
+      active.scrollIntoView({ inline: "center", block: "nearest", behavior: "smooth" });
+    }
+  }, [selectedTech]);
 
   const filteredProjects = useMemo(() => {
     if (!selectedTech) return sortedProjects;
@@ -41,11 +76,29 @@ export default function Projects() {
       </p>
 
       {/* Technology Filter */}
-      <div className="mb-8">
-        <div className="flex flex-wrap gap-2">
+      <div className="relative mb-8">
+        {/* Left fade */}
+        <div
+          className={`pointer-events-none absolute left-0 top-0 z-10 h-full w-12 bg-gradient-to-r from-[var(--background)] to-transparent transition-opacity duration-200 ${
+            canScrollLeft ? "opacity-100" : "opacity-0"
+          }`}
+        />
+
+        {/* Right fade */}
+        <div
+          className={`pointer-events-none absolute right-0 top-0 z-10 h-full w-12 bg-gradient-to-l from-[var(--background)] to-transparent transition-opacity duration-200 ${
+            canScrollRight ? "opacity-100" : "opacity-0"
+          }`}
+        />
+
+        <div
+          ref={scrollRef}
+          className="flex gap-2 overflow-x-auto scrollbar-none"
+        >
           <button
+            data-active={selectedTech === null}
             onClick={() => setSelectedTech(null)}
-            className={`rounded-full px-3 py-1 text-xs transition ${
+            className={`shrink-0 rounded-full px-3 py-1 text-xs transition ${
               selectedTech === null
                 ? "bg-slate-800 text-white dark:bg-slate-200 dark:text-slate-900"
                 : "bg-slate-100 text-slate-600 hover:bg-slate-200 dark:bg-slate-800 dark:text-slate-300 dark:hover:bg-slate-700"
@@ -56,8 +109,9 @@ export default function Projects() {
           {allTechnologies.map((tech) => (
             <button
               key={tech}
+              data-active={selectedTech === tech}
               onClick={() => setSelectedTech(tech === selectedTech ? null : tech)}
-              className={`rounded-full px-3 py-1 text-xs transition ${
+              className={`shrink-0 rounded-full px-3 py-1 text-xs transition ${
                 selectedTech === tech
                   ? "bg-slate-800 text-white dark:bg-slate-200 dark:text-slate-900"
                   : "bg-slate-100 text-slate-600 hover:bg-slate-200 dark:bg-slate-800 dark:text-slate-300 dark:hover:bg-slate-700"
