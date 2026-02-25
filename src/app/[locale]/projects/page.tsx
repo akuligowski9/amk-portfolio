@@ -2,7 +2,7 @@
 
 import { useState, useMemo } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { projects, ProjectStatus } from "@/lib/data/projects";
+import { projects } from "@/lib/data/projects";
 import { Github, Lock, Globe } from "lucide-react";
 import { useTranslations } from 'next-intl';
 
@@ -12,20 +12,11 @@ const allTechnologies = Array.from(
   new Set(projects.flatMap((p) => p.stack))
 ).sort();
 
-const statusDotStyles: Record<ProjectStatus, string> = {
-  Active: "bg-green-500",
-  Maintenance: "bg-yellow-500",
-  Archived: "bg-slate-400",
-};
-
 const projectDescriptionKeys: Record<string, string> = {
   "The Shelf": "the-shelf",
   "Kestrel": "kestrel",
   "ChiriBudget": "chiribudget",
   "Abstractly": "abstractly",
-  "Just Be Funny": "just-be-funny",
-  "Brita": "brita",
-  "AMK Portfolio": "amk-portfolio",
   "ProjectBridge": "project-bridge",
   "ForThoseHere": "for-those-here",
   "Uywayki": "uywayki",
@@ -90,15 +81,8 @@ export default function Projects() {
                 dark:border-slate-700 dark:bg-slate-900
               "
             >
-              <CardHeader className="flex flex-row items-center justify-between gap-3">
+              <CardHeader>
                 <CardTitle>{p.title}</CardTitle>
-                <span
-                  className="flex cursor-help items-center gap-1.5 rounded-full border border-slate-200 px-2 py-0.5 text-xs text-slate-500 dark:border-slate-700"
-                  title={t(`statusDescriptions.${p.status}`)}
-                >
-                  <span className={`h-2 w-2 rounded-full ${statusDotStyles[p.status]}`} />
-                  {t(`status.${p.status}`)}
-                </span>
               </CardHeader>
 
               <CardContent className="flex flex-1 flex-col">
@@ -139,11 +123,6 @@ export default function Projects() {
                     <span className="inline-flex items-center gap-1.5 text-sm text-slate-400 dark:text-slate-500">
                       <Lock className="h-3.5 w-3.5" />
                       {t('privateRepo')}
-                    </span>
-                  )}
-                  {!p.demoLink && !p.githubLink && !p.websiteLink && (
-                    <span className="inline-flex items-center gap-1.5 text-sm text-slate-400 dark:text-slate-500">
-                      {t('comingSoon')}
                     </span>
                   )}
                 </div>

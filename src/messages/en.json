@@ -5,8 +5,7 @@
   },
   "nav": {
     "home": "Home",
-    "work": "Work",
-    "contact": "Contact"
+    "work": "Work"
   },
   "home": {
     "role": "Software Engineer",
@@ -18,17 +17,12 @@
     "kestrelDesc": "A C++ and Swift system health monitor for macOS. Embedded-style design with built-in fault injection.",
     "theShelfDesc": "An attention-management app for tracking progress and building healthy routines.",
     "projectBridgeDesc": "A local-first tool that analyzes your repos against job descriptions and recommends projects to close skill gaps.",
-    "forThoseHereDesc": "A mobile app for end-of-life planning so loved ones don't have to guess on the days they deserve to grieve.",
+    "uywaykiDesc": "A pet care management mobile application for Lima, Peru. Vaccination tracking, a map of 800+ local pet services, care reminders, and WhatsApp contact for appointments.",
     "moreProjects": "More projects and experiments in",
-    "workLink": "Work",
-    "connectTitle": "Connect with me",
-    "connectEmail": "Email",
-    "connectGithub": "GitHub",
-    "connectLinkedin": "LinkedIn"
+    "workLink": "Work"
   },
   "contact": {
     "title": "Contact",
-    "subtitle": "Send me a message and I'll get back to you.",
     "emailLabel": "Your email",
     "emailPlaceholder": "you@example.com",
     "messageLabel": "Message",
@@ -39,7 +33,6 @@
     "errorGeneric": "Something went wrong. Please try again.",
     "errorEmail": "Please enter a valid email address.",
     "errorMessage": "Please enter a message.",
-    "connectTitle": "Connect with me",
     "email": "Email",
     "github": "GitHub",
     "linkedin": "LinkedIn"
@@ -51,32 +44,17 @@
     "title": "Projects",
     "subtitle": "What I've been building. Questions welcome.",
     "filterAll": "All",
-    "demo": "Demo",
     "website": "Website",
     "privateRepo": "Private",
-    "comingSoon": "App coming soon",
     "noResults": "No projects found with that technology.",
-    "status": {
-      "Active": "Active",
-      "Maintenance": "Maintenance",
-      "Archived": "Archived"
-    },
-    "statusDescriptions": {
-      "Active": "Actively developed with regular updates",
-      "Maintenance": "Stable but only receiving bug fixes",
-      "Archived": "No longer maintained"
-    },
     "descriptions": {
       "the-shelf": "A personal attention-management & life balancing companion for tracking and celebrating progress.",
       "kestrel": "An embedded-style system health monitor for macOS with a C++ core engine, Swift menu bar UI, and built-in fault injection for validation.",
       "chiribudget": "A budgeting app to track finances and visualize spending categories.",
       "abstractly": "A research radar for tracking AI trends and translating emerging techniques into practical applications.",
-      "just-be-funny": "Improv game and creator hub for comedy themes.",
-      "brita": "AI-powered documentation generator for contextual README files.",
-      "amk-portfolio": "A personal portfolio site to showcase projects and build a refined space beyond a traditional resume.",
       "project-bridge": "A local-first developer tool that analyzes your GitHub repos against job descriptions and recommends projects to close skill gaps. Privacy-first, everything runs on your machine.",
       "for-those-here": "A mobile app for end-of-life planning so loved ones don't have to guess on the days they deserve to grieve.",
-      "uywayki": "A pet care management app for Lima, Peru. Vaccination tracking, care schedules, clinic discovery with MapKit, and WhatsApp-based appointment requests. Built with SwiftUI and Supabase."
+      "uywayki": "A pet care management mobile application for Lima, Peru. Vaccination tracking, a map of 800+ local pet services, care reminders, and WhatsApp contact for appointments."
     }
   }
 }
