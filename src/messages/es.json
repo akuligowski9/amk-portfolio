@@ -5,7 +5,8 @@
   },
   "nav": {
     "home": "Inicio",
-    "work": "Trabajo"
+    "work": "Trabajo",
+    "contact": "Contacto"
   },
   "home": {
     "role": "Ingeniero de Software",
@@ -20,18 +21,38 @@
     "forThoseHereDesc": "Una app movil para la planificacion del final de vida para que los seres queridos no tengan que adivinar en los dias que merecen llorar.",
     "moreProjects": "Mas proyectos y experimentos en",
     "workLink": "Trabajo",
-    "contactTitle": "Contacto",
-    "contactIntro": "La mejor forma de contactarme es por telefono o correo. Abierto a colaboraciones en GitHub.",
-    "phone": "Telefono",
+    "connectTitle": "Conéctate conmigo",
+    "connectEmail": "Correo",
+    "connectGithub": "GitHub",
+    "connectLinkedin": "LinkedIn"
+  },
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "Envíame un mensaje y te responderé pronto.",
+    "emailLabel": "Tu correo",
+    "emailPlaceholder": "tu@ejemplo.com",
+    "messageLabel": "Mensaje",
+    "messagePlaceholder": "Qué tienes en mente?",
+    "send": "Enviar mensaje",
+    "sending": "Enviando...",
+    "success": "Mensaje enviado! Te responderé pronto.",
+    "errorGeneric": "Algo salió mal. Por favor, inténtalo de nuevo.",
+    "errorEmail": "Por favor, ingresa un correo electrónico válido.",
+    "errorMessage": "Por favor, ingresa un mensaje.",
+    "connectTitle": "Conéctate conmigo",
     "email": "Correo",
-    "linkedin": "LinkedIn",
-    "github": "GitHub"
+    "github": "GitHub",
+    "linkedin": "LinkedIn"
+  },
+  "footer": {
+    "copyright": "© 2026 Alex Kuligowski. Todos los derechos reservados."
   },
   "projects": {
     "title": "Proyectos",
     "subtitle": "Lo que he estado construyendo. Preguntas bienvenidas.",
     "filterAll": "Todos",
     "demo": "Demo",
+    "website": "Sitio web",
     "privateRepo": "Privado",
     "comingSoon": "App proximamente",
     "noResults": "No se encontraron proyectos con esa tecnologia.",

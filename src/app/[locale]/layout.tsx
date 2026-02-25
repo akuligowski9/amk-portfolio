@@ -50,6 +50,7 @@ export default async function RootLayout({
   }
 
   const messages = await getMessages();
+  const t = await getTranslations('footer');
 
   return (
     <html lang={locale} suppressHydrationWarning>
@@ -60,6 +61,10 @@ export default async function RootLayout({
           <NavBar />
           {children}
         </NextIntlClientProvider>
+
+        <footer className="py-8 text-center text-sm text-slate-500">
+          {t('copyright')}
+        </footer>
 
         <Analytics />
         <SpeedInsights />

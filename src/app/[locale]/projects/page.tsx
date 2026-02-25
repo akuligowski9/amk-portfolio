@@ -3,7 +3,7 @@
 import { useState, useMemo } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { projects, ProjectStatus } from "@/lib/data/projects";
-import { Github, ExternalLink, Lock } from "lucide-react";
+import { Github, Lock, Globe } from "lucide-react";
 import { useTranslations } from 'next-intl';
 
 const sortedProjects = [...projects].sort((a, b) => a.order - b.order);
@@ -103,6 +103,17 @@ export default function Projects() {
 
               <CardContent className="flex flex-1 flex-col">
                 <div className="mb-3 flex flex-wrap gap-3">
+                  {p.websiteLink && (
+                    <a
+                      href={p.websiteLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 text-sm text-blue-600 hover:underline dark:text-blue-400"
+                    >
+                      <Globe className="h-4 w-4" />
+                      {t('website')}
+                    </a>
+                  )}
                   {p.demoLink && (
                     <a
                       href={p.demoLink}
@@ -110,8 +121,8 @@ export default function Projects() {
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-1.5 text-sm text-blue-600 hover:underline dark:text-blue-400"
                     >
-                      <ExternalLink className="h-4 w-4" />
-                      {t('demo')}
+                      <Globe className="h-4 w-4" />
+                      {t('website')}
                     </a>
                   )}
                   {p.githubLink ? (
@@ -124,13 +135,13 @@ export default function Projects() {
                       <Github className="h-4 w-4" />
                       GitHub
                     </a>
-                  ) : (
+                  ) : !p.websiteLink && (
                     <span className="inline-flex items-center gap-1.5 text-sm text-slate-400 dark:text-slate-500">
                       <Lock className="h-3.5 w-3.5" />
                       {t('privateRepo')}
                     </span>
                   )}
-                  {!p.demoLink && !p.githubLink && (
+                  {!p.demoLink && !p.githubLink && !p.websiteLink && (
                     <span className="inline-flex items-center gap-1.5 text-sm text-slate-400 dark:text-slate-500">
                       {t('comingSoon')}
                     </span>

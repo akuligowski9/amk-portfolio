@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Link } from "@/i18n/routing";
 import { getTranslations } from 'next-intl/server';
+import { ContactForm } from "@/components/site/contact-form";
 
 export default async function Home() {
   const t = await getTranslations('home');
@@ -116,60 +117,7 @@ export default async function Home() {
 
         {/* Right */}
         <div className="space-y-10">
-          {/* Contact */}
-          <div className="space-y-4">
-            <h2 className="text-xl font-semibold tracking-tight">{t('contactTitle')}</h2>
-
-            <p className={paragraph}>
-              {t('contactIntro')}
-            </p>
-
-            <div className="space-y-2 text-base leading-relaxed text-slate-700">
-              <p>
-                <span className="font-medium text-slate-800">{t('phone')}:</span>{" "}
-                <a
-                  className="underline underline-offset-4 hover:no-underline"
-                  href="tel:+17347565627"
-                >
-                  +1 (734) 756-5627
-                </a>
-              </p>
-
-              <p>
-                <span className="font-medium text-slate-800">{t('email')}:</span>{" "}
-                <a
-                  className="underline underline-offset-4 hover:no-underline"
-                  href="mailto:alekuligowski@gmail.com"
-                >
-                  alekuligowski@gmail.com
-                </a>
-              </p>
-
-              <p>
-                <span className="font-medium text-slate-800">{t('linkedin')}:</span>{" "}
-                <a
-                  className="underline underline-offset-4 hover:no-underline"
-                  href="https://www.linkedin.com/in/alexkuligowski"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  /in/akuligowski
-                </a>
-              </p>
-
-              <p>
-                <span className="font-medium text-slate-800">{t('github')}:</span>{" "}
-                <a
-                  className="underline underline-offset-4 hover:no-underline"
-                  href="https://github.com/akuligowski9"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  github.com/akuligowski9
-                </a>
-              </p>
-            </div>
-          </div>
+          <ContactForm />
         </div>
       </section>
     </main>

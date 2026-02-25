@@ -5,7 +5,8 @@
   },
   "nav": {
     "home": "Home",
-    "work": "Work"
+    "work": "Work",
+    "contact": "Contact"
   },
   "home": {
     "role": "Software Engineer",
@@ -20,18 +21,38 @@
     "forThoseHereDesc": "A mobile app for end-of-life planning so loved ones don't have to guess on the days they deserve to grieve.",
     "moreProjects": "More projects and experiments in",
     "workLink": "Work",
-    "contactTitle": "Contact",
-    "contactIntro": "Best way to reach me is phone or email. Open to GitHub collaborations.",
-    "phone": "Phone",
+    "connectTitle": "Connect with me",
+    "connectEmail": "Email",
+    "connectGithub": "GitHub",
+    "connectLinkedin": "LinkedIn"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Send me a message and I'll get back to you.",
+    "emailLabel": "Your email",
+    "emailPlaceholder": "you@example.com",
+    "messageLabel": "Message",
+    "messagePlaceholder": "What's on your mind?",
+    "send": "Send message",
+    "sending": "Sending...",
+    "success": "Message sent! I'll get back to you soon.",
+    "errorGeneric": "Something went wrong. Please try again.",
+    "errorEmail": "Please enter a valid email address.",
+    "errorMessage": "Please enter a message.",
+    "connectTitle": "Connect with me",
     "email": "Email",
-    "linkedin": "LinkedIn",
-    "github": "GitHub"
+    "github": "GitHub",
+    "linkedin": "LinkedIn"
+  },
+  "footer": {
+    "copyright": "© 2026 Alex Kuligowski. All rights reserved."
   },
   "projects": {
     "title": "Projects",
     "subtitle": "What I've been building. Questions welcome.",
     "filterAll": "All",
     "demo": "Demo",
+    "website": "Website",
     "privateRepo": "Private",
     "comingSoon": "App coming soon",
     "noResults": "No projects found with that technology.",
