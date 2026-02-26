@@ -20,7 +20,7 @@ const projectDescriptionKeys: Record<string, string> = {
   "ProjectBridge": "project-bridge",
   "ForThoseHere": "for-those-here",
   "Uywayki": "uywayki",
-  "API Explorer": "api-explorer",
+  "API Gallery": "api-gallery",
 };
 
 export default function Projects() {

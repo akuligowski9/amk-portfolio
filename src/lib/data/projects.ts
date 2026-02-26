@@ -60,10 +60,10 @@ export const projects: Project[] = [
     order: 8,
   },
   {
-    title: "API Explorer",
+    title: "API Gallery",
     desc: "A visual front-end for 1,500+ public APIs with rendered previews, side-by-side comparison, and instant docs.",
     stack: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "Vercel"],
-    githubLink: "https://github.com/akuligowski9/api-explorer",
+    githubLink: "https://github.com/akuligowski9/api-gallery",
     websiteLink: "https://public-apis-explorer.vercel.app",
     order: 5,
   },
