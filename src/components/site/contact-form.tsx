@@ -2,7 +2,6 @@
 
 import { useActionState } from "react";
 import { useTranslations } from "next-intl";
-import { Mail, Github, Linkedin } from "lucide-react";
 import { sendMessage, type ContactState } from "@/lib/contact-action";
 
 export function ContactForm() {
@@ -68,33 +67,6 @@ export function ContactForm() {
         </form>
       )}
 
-      <div className="flex gap-4 pt-2">
-        <a
-          href="mailto:alekuligowski@gmail.com"
-          className="text-slate-600 hover:text-slate-900 transition-colors"
-          aria-label={t("email")}
-        >
-          <Mail className="h-5 w-5" />
-        </a>
-        <a
-          href="https://github.com/akuligowski9"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-slate-600 hover:text-slate-900 transition-colors"
-          aria-label={t("github")}
-        >
-          <Github className="h-5 w-5" />
-        </a>
-        <a
-          href="https://www.linkedin.com/in/alexkuligowski"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-slate-600 hover:text-slate-900 transition-colors"
-          aria-label={t("linkedin")}
-        >
-          <Linkedin className="h-5 w-5" />
-        </a>
-      </div>
     </div>
   );
 }

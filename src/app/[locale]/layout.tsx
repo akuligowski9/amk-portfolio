@@ -8,6 +8,7 @@ import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, getTranslations } from 'next-intl/server';
 import { routing } from '@/i18n/routing';
 import { notFound } from 'next/navigation';
+import { Mail, Github, Linkedin } from "lucide-react";
 
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
@@ -62,8 +63,19 @@ export default async function RootLayout({
           {children}
         </NextIntlClientProvider>
 
-        <footer className="py-8 text-center text-sm text-slate-500">
-          {t('copyright')}
+        <footer className="py-8 text-center text-sm text-slate-500 space-y-3">
+          <div className="flex justify-center gap-4">
+            <a href="mailto:alekuligowski@gmail.com" className="text-slate-500 hover:text-slate-700 transition-colors" aria-label="Email">
+              <Mail className="h-5 w-5" />
+            </a>
+            <a href="https://github.com/akuligowski9" target="_blank" rel="noopener noreferrer" className="text-slate-500 hover:text-slate-700 transition-colors" aria-label="GitHub">
+              <Github className="h-5 w-5" />
+            </a>
+            <a href="https://www.linkedin.com/in/alexkuligowski" target="_blank" rel="noopener noreferrer" className="text-slate-500 hover:text-slate-700 transition-colors" aria-label="LinkedIn">
+              <Linkedin className="h-5 w-5" />
+            </a>
+          </div>
+          <p>{t('copyright')}</p>
         </footer>
 
         <Analytics />
