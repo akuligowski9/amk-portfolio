@@ -54,12 +54,6 @@ export const projects: Project[] = [
     order: 7,
   },
   {
-    title: "ForThoseHere",
-    desc: "A mobile app for end-of-life planning so loved ones don't have to guess on the days they deserve to grieve.",
-    stack: ["React Native", "Expo", "MongoDB", "Clerk", "Docker"],
-    order: 8,
-  },
-  {
     title: "API Gallery",
     desc: "A visual front-end for 1,500+ public APIs with rendered previews, side-by-side comparison, and instant docs.",
     stack: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "Vercel"],

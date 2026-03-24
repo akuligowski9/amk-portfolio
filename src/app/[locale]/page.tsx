@@ -39,7 +39,7 @@ export default async function Home() {
             <p className="text-base lg:text-sm leading-relaxed text-slate-700">
               {t('availability')}{" "}
               <a
-                href="/AMK2025Resume.pdf"
+                href="/AMK2026Resume_General.pdf"
                 target="_blank"
                 className="underline decoration-slate-400 underline-offset-4 hover:decoration-slate-600"
               >

@@ -18,7 +18,6 @@ const projectDescriptionKeys: Record<string, string> = {
   "ChiriBudget": "chiribudget",
   "Abstractly": "abstractly",
   "ProjectBridge": "project-bridge",
-  "ForThoseHere": "for-those-here",
   "Uywayki": "uywayki",
   "API Gallery": "api-gallery",
 };
