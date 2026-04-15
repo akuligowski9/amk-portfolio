@@ -37,7 +37,10 @@ export default async function Home() {
             </p>
 
             <p className="text-base lg:text-sm leading-relaxed text-slate-700">
-              {t('availability')}{" "}
+              {t('availability')}
+            </p>
+
+            <p className="text-base lg:text-sm leading-relaxed text-slate-700">
               <a
                 href="/AMK2026Resume_General.pdf"
                 target="_blank"
@@ -45,7 +48,6 @@ export default async function Home() {
               >
                 {t('downloadResume')}
               </a>
-              .
             </p>
           </div>
         </aside>
